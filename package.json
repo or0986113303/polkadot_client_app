@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/or0986113303/polkadot_client_app.git",
   "author": "Mir.Chen <MirYH.Chen@moxa.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.9.1",
+    "@polkadot/api-contract": "^10.9.1"
+  }
 }
